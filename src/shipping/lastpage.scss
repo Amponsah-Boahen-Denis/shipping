@@ -1,0 +1,30 @@
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(./bgs.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        p{
+           max-width:50vh;
+           min-width: auto;
+           color: black;
+           margin: 10px;
+        }
+    }
+}
