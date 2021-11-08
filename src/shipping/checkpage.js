@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import './checkpage.scss'
 import {Link} from 'react-router-dom'
 function Checkpage({agent,setagent,sender,setsender,reciever,
