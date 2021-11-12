@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import './lastpage.scss'
 function Lastpage({sender,setsender}) {
-    useEffect(() => {
+  /* useEffect(() => {
         const temp=localStorage.getItem('dos')
         const load=JSON.parse(temp) 
         if(load){
@@ -12,6 +12,7 @@ function Lastpage({sender,setsender}) {
      const temp=JSON.stringify(sender)
      localStorage.setItem('dos',temp)
  }, [sender])
+ */
     return (
         <div className='last'>
             <div>

@@ -63,6 +63,8 @@ align-items: center;
             width:180px;
             margin:5px;
             border-radius:10px;
+            border:hidden;
+            background-color: aliceblue;
             align-self:center;
             margin: 10px;
         }
@@ -71,6 +73,8 @@ align-items: center;
             width:240px;
             height:150px;
             align-self: center;
+            border:hidden;
+            background-color: aliceblue;
         }
       
     }
